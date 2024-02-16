@@ -40,3 +40,7 @@ def is_prime(n):
 # Example usage
 print(is_prime(7))  # True
 print(is_prime(12))  # False
+
+
+d = {'a':1, 'b':2, 'c': 3}
+print(list(d.keys()))
