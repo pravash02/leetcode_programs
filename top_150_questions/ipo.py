@@ -3,7 +3,7 @@ from typing import List
 
 
 class Solution:
-    def findMaximizedCapital(self, k: int, w: int, profits: List[int], capital: List[int]) -> int:
+    def findMaximizedCapital(self, k: int, w: int, profits: List[int], capital: List[int]):
         heap1 = [(c, -p) for c, p in zip(capital, profits)]
         heapify(heap1)
         heap2 = []
