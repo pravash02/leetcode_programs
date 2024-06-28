@@ -1,7 +1,3 @@
-# A Dynamic Programming based on Python3
-# program to count number of ways to
-# cover a distance with 1, 2 and 3 steps
-
 def printCountDP(dist):
     count = [0] * (dist + 1)
     print(count)
@@ -27,5 +23,3 @@ def printCountDP(dist):
 # driver program
 dist = 6
 print(printCountDP(dist))
-
-# This code is contributed by Sam007.
